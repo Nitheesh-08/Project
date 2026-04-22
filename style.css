@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a68);
+    color: white;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color:black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 85%;
+    padding: 12px;
+    background: cyan;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: cyan;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px cyan;
+}
+
+.container {
+    width: 30%;
+    margin: 80px auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px cyan;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    width: 85%;
+    padding: 12px;
+    background: cyan;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span {
+    color: cyan;
+}
+
+#aboutus{
+    color:aliceblue;
+}

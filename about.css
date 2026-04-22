@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(
+        -45deg,
+        #1e1e2f,
+        #2a2a4f,
+        #1f3b4d,
+        #2e1f47
+    );
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    display: flex;
+    flex-direction: column;
+    color:aliceblue;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.about-card {
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    box-shadow:
+        0 0 20px rgba(0, 255, 255, 0.15),
+        inset 0 0 10px rgba(255, 255, 255, 0.05);
+    color: #eaeaea;
+}
+
+nav a {
+    color:black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 85%;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: cyan;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px cyan;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+}
